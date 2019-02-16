@@ -9,17 +9,69 @@
     color: white;
     text-align: center;
   } */
-  .nav-link {
+.nav-link {
     color: black;
+    font-size: 12px;
   }
+.bottom-text {
+  font-size: 20px;
+}
+.col-md-6 {
+  font-size: 20px;
+  text-align: left;
+  ;
+}
+.footer {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 85px;
+  margin-left: 50px;
+}
+.fa {
+  padding: 17px;
+  font-size: 16px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+.fa-instagram {
+  background: #dd4b39;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+span:before {
+    content:" ";
+    display:inline-block;
+    width:275px;
+}
+p {
+  text-align: right;
+}
+
   /* .mx-auto {
     text-align: center;
     margin: 40px;
   } */
-
 </style>
+
 <head>
   <link href="style.css" rel"stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -28,66 +80,180 @@
 </head>
 
 <body style="background-color: #f3f3f3;">
-  <div class="text-center bg-dark text-white p-1">FREE SHIPPING ON MERCH ORDERS OVER $50 WITH CODE: FREESHIP</div>
+  <div class="text-center bg-dark text-white p-1">FREE SHIPPING ON MERCH ORDERS OVER $50 WITH CODE: FREESHIP
+  </div>
   <div class="container bg-white shadow-sm">
-    <div class="mx-auto" style="width: 200px;">
-      <img src="logo.png" width="150px" />
-    </div>
-
+    <div class="row">
+      <div class="col-md-12 text-center mt-3">
+        <img src="logo.png" width="150px" margin-top="5px"/>
+      </div>
+      </div>
+  <div class="row border-top border-bottom mt-3 mb-3 pt-4 pb-4 justify-content-center">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active" href="#">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Menu</a>
+        <a class="nav-link" href="#">MENU</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Locations</a>
+        <a class="nav-link" href="#">LOCATIONS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">BLOG</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Catering</a>
+        <a class="nav-link" href="#">CATERING</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Careers</a>
+        <a class="nav-link" href="#">CAREERS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Tea Latte</a>
+        <a class="nav-link" href="#">TEA LATTE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="#">SHOP</a>
       </li>
     </ul>
-    <div class="mx-auto mb-3">
-      <img src="https://via.placeholder.com/1200x400" class="img-fluid" />
+  </div>
+    <div class="mb-3">
+      <img src="https://via.placeholder.com/1200x300" class="img-fluid" />
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/400" class="img-fluid"/>
+      </div>
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/400" class="img-fluid"/>
+      </div>
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/400" class="img-fluid"/>
+      </div>
+    </div>
+    <div class="row text-center mt-3">
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/400" class="img-fluid"/>
+      </div>
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/400" class="img-fluid"/>
+      </div>
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/400" class="img-fluid"/>
+      </div>
     </div>
 
     <div class="row">
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/300" class="img-fluid"/>
-      </div>
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/300" class="img-fluid"/>
-      </div>
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/300" class="img-fluid"/>
+      <div class="col-md-12 mt-5 mb-5 text-center">
+        <id class="bottom-text">WE STAND FOR: QUALITY, TRANSPARENCY, AND GIVING A DAMN.</id>
       </div>
     </div>
-    <div class="row mt-3">
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/300" class="img-fluid"/>
+
+    <div class="row">
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
       </div>
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/300" class="img-fluid"/>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
       </div>
-      <div class="col-md-4">
-        <img src="https://via.placeholder.com/300" class="img-fluid"/>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
       </div>
     </div>
+    <div class="row mt-1">
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+      <div class="col-md-2">
+        <img src="https://via.placeholder.com/200" class="img-fluid"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center mb-4 mt-5">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC1Efpg6OeOAWW-aWE5Bz0WVxFj2F-shNhkFMZpCYaxS_4f28z" width="154.4" height="45.75"/>
+      </div>
+    </div>
+    <div class="row border-top p-5 mt-4 mb-5">
+        <div class="col-md-6">
+          <div style="text-decoration: underline">
+
+              “Boba Guys isn’t just bringing boba to foodie Americans; it’s also reimagining it for longtime lovers.”
+          </div>
+          <div>
+              <p>
+                — NPR
+              </p>
+          </div>
+
+          </div>
+          <div class="col-md-6">
+          <div style="text-decoration: underline;">
+
+                “It was only a matter of time: local and artisanal bubble tea has arrived in San Francisco.”
+          </div>
+              <div>
+                <p>
+                — New York Times
+                </p>
+              </div>
+          </div>
+        </div>
+    <div class="row border-top border-bottom justify-content-center">
+        <ul class="nav justify-content-center mt-3 mb-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRESS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NUTRITIONAL INFO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HEALTHY SF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TERMS AND CONDITIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRIVACY POLICY</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer">
+            &copy;Copyright 2018 Boba Guys Inc. All Rights Reserved.
+            <span> </span>
+            <span> <a href="#" class="fa fa-instagram"></a> <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a>
+            </span>
+          </div>
+        </div>
+        </div>
+      </div>
   </body>
   </html>
