@@ -1,0 +1,54 @@
+.nav-link {
+  color: black;
+  font-size: 12px;
+}
+.bottom-text {
+  font-size: 20px;
+}
+.col-md-6 {
+  font-size: 20px;
+  text-align: left;
+  ;
+}
+.footer {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 85px;
+  margin-left: 50px;
+  color: red;
+}
+.fa {
+  padding: 17px;
+  font-size: 16px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+.fa-instagram {
+  background: #dd4b39;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+span:before {
+  content:" ";
+  display:inline-block;
+  width:275px;
+}
+p {
+  text-align: right;
+}
